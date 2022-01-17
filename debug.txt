@@ -1,0 +1,15 @@
+listHead--> ("dummy", 0, "a")--> ("a", 2, NULL)--> NULL
+listHead--> ("dummy", 0, "a")--> ("a", 2, "b")--> ("b", 3, NULL)--> NULL
+listHead--> ("dummy", 0, "a")--> ("a", 2, "b")--> ("b", 3, "c")--> ("c", 5, NULL)--> NULL
+listHead--> ("dummy", 0, "a")--> ("a", 2, "b")--> ("b", 3, "c")--> ("c", 5, "d")--> ("d", 15, NULL)--> NULL
+listHead--> ("dummy", 0, "a")--> ("a", 2, "b")--> ("b", 3, "c")--> ("c", 5, "e")--> ("e", 10, "d")--> ("d", 15, NULL)--> NULL
+listHead--> ("dummy", 0, "a")--> ("a", 2, "b")--> ("b", 3, "c")--> ("c", 5, "e")--> ("e", 10, "d")--> ("d", 15, "x")--> ("x", 45, NULL)--> NULL
+listHead--> ("dummy", 0, "a")--> ("a", 2, "b")--> ("b", 3, "c")--> ("c", 5, "e")--> ("e", 10, "y")--> ("y", 13, "d")--> ("d", 15, "x")--> ("x", 45, NULL)--> NULL
+listHead--> ("dummy", 0, "a")--> ("a", 2, "b")--> ("b", 3, "c")--> ("c", 5, "z")--> ("z", 7, "e")--> ("e", 10, "y")--> ("y", 13, "d")--> ("d", 15, "x")--> ("x", 45, NULL)--> NULL
+listHead--> ("dummy", 0, "ab")--> ("ab", 5, "c")--> ("c", 5, "z")--> ("z", 7, "e")--> ("e", 10, "y")--> ("y", 13, "d")--> ("d", 15, "x")--> ("x", 45, NULL)--> NULL
+listHead--> ("dummy", 0, "z")--> ("z", 7, "abc")--> ("abc", 10, "e")--> ("e", 10, "y")--> ("y", 13, "d")--> ("d", 15, "x")--> ("x", 45, NULL)--> NULL
+listHead--> ("dummy", 0, "e")--> ("e", 10, "y")--> ("y", 13, "d")--> ("d", 15, "zabc")--> ("zabc", 17, "x")--> ("x", 45, NULL)--> NULL
+listHead--> ("dummy", 0, "d")--> ("d", 15, "zabc")--> ("zabc", 17, "ey")--> ("ey", 23, "x")--> ("x", 45, NULL)--> NULL
+listHead--> ("dummy", 0, "ey")--> ("ey", 23, "dzabc")--> ("dzabc", 32, "x")--> ("x", 45, NULL)--> NULL
+listHead--> ("dummy", 0, "x")--> ("x", 45, "eydzabc")--> ("eydzabc", 55, NULL)--> NULL
+listHead--> ("dummy", 0, "xeydzabc")--> ("xeydzabc", 100, NULL)--> NULL
